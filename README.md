@@ -1,4 +1,4 @@
-# wallet-issues-tracker
+# Wallet App (Open Beta)
 Issue tracker for the Helium Wallet app
 
 ### Join us in our Open Beta
