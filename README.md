@@ -20,11 +20,11 @@ Download the App using TestFlight (Apple’s beta app distribution tool): https:
 2. Click **Feature Request** and fill out the form, or go here: https://github.com/helium/wallet-issues-tracker/issues/new?assignees=&labels=feature%2Ctriage&template=feature-request.yaml&title=%5Bfeature%5D%3A+
 
 ## Functionality Currently in Development
-Enter a 1-time wallet address for payments
-Validity check for wallet address
-Backup and Restore (iCloud support)
+- Enter a 1-time wallet address for payments
+- Validity check for wallet address
+- Backup and Restore, reauthentication required (iCloud support)
 
 ## Features Coming Soon
-Helium Vote
-Ledger Payments
-Staking
+- Helium Vote
+- Ledger Payments
+- Staking
