@@ -4,7 +4,7 @@ title: "[bug]: "
 labels: ["bug", "triage"]
 assignees: []
 body:
-  - type: markdown
+ - type: markdown
     attributes:
       value: |
         Report any bugs founds in the Wallet App available in open Beta. Please make sure you're updated to the latest app version before reporting issues.
