@@ -1,16 +1,13 @@
----
-name: Wallet Bug Reporter
-about: Report any issues found in the Wallet App
-title: ''
-labels: bug
-assignees: ''
-
----
-
+name: Bug Reporter
+description: Fill out this form to report a bug with the Wallet App
+title: "[bug]: "
+labels: ["bug", "triage"]
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
+        Report any bugs founds in the Wallet App available in open Beta. Please make sure you're updated to the latest app version before reporting issues.
 
 
   - type: textarea
@@ -21,12 +18,32 @@ body:
       placeholder: 1. I was trying to do ... 
     validations:
       required: true
+      
+   - type: input
+    id: transaction-hash
+    attributes:
+      label: Transaction Hash
+      description: If there is an issue with a transaction, please enter the transaction hash. You can find this in the app or explorer.
+      placeholder: ex. YVFH5alJC-XYtexf1OBJGFUSoAV13SKprptRbZ_73Bs
+    validations:
+      required: false
 
-  - type: Phone Type
+  - type: input
     id: device-type
     attributes:
       label: Phone Type
       description: What Operating System (iOS or Android) and what OS Version (i.e. iOS 14 or Android 12.0)
       placeholder: ex. iPhone 13 iOS 15
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: net-type
+    attributes:
+      label: Network Type
+      description: Did you find the issue on Mainnet (HNT) or Testnet (TNT)?
+      options:
+        - Mainnet
+        - Testnet
     validations:
       required: true
