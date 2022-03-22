@@ -1,0 +1,21 @@
+name: Feature Request
+description: Fill out this form to request a new feature within the Wallet App
+title: "[feature]: "
+labels: ["feature", "triage"]
+assignees: []
+body:
+ - type: markdown
+   attributes:
+     value: |
+        Have an idea for the Wallet app? Let us know what you'd like to see.
+
+
+ - type: textarea
+   id: feature-request
+   attributes:
+     label: feature
+     description: Describe what you'd like to see us add as a feature
+     placeholder: 1. as a user, I'd like to do ... 2. so that I can ...
+   validations:
+     required: true
+     
