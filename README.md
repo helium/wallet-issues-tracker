@@ -1,10 +1,11 @@
 # Wallet App (Open Beta)
-Issue tracker for the Helium Wallet app
+Issue tracker for the Helium Wallet app. 
 
 ### Join us in our Open Beta
 
 #### Android
 Download the App on Mobile: https://play.google.com/store/apps/details?id=com.helium.wallet.app
+
 From Web: https://play.google.com/apps/testing/com.helium.wallet.app
 
 #### iOS
