@@ -12,4 +12,8 @@ Download the App using TestFlight (Apple’s beta app distribution tool): https:
 
 # How to report a bug
 1. Go to the **Issues** link at the top of this webpage
-2. Click 
+2. Click **Bug Reporter** and fill out the form, or go here: https://github.com/helium/wallet-issues-tracker/issues/new?assignees=&labels=bug%2Ctriage&template=wallet-bug-report.yaml&title=%5Bbug%5D%3A+
+
+# How to request a new feature
+1. Go to the **Issues** link at the top of this webpage
+2. Click **Feature Request** and fill out the form, or go here: https://github.com/helium/wallet-issues-tracker/issues/new?assignees=&labels=feature%2Ctriage&template=feature-request.yaml&title=%5Bfeature%5D%3A+
